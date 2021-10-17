@@ -1,0 +1,63 @@
+/* colors and fonts */
+
+body{
+	background: rgb(230, 230, 230);
+	color: rgb(30, 30, 30);
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	color:#FD5200;
+	font-family: 'Lora', serif;
+}
+
+a{
+	text-decoration: none;
+	color: #D62828;
+}
+a:hover{
+	color: #FD5200;
+}
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px;
+	text-align: center;
+}
+.img-circle{
+	border-radius: 50%;
+}
+.btn-blue{
+	background-color: #FD5200;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 10px;
+}
+
+.btn-blue:hover{
+	background-color: #FAA613;
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 30px;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+
